@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Basics Example</title>
+    <style>
+        /* 1. Element Selector */
+        body {
+            font-family: Arial, sans-serif; /* 3. Font-family */
+            background-color: #f9f9f9; /* 2. Background color */
+            color: #333; /* 2. Text color */
+            margin: 20px;
+        }
+
+        /* 1. Class Selector */
+        .heading {
+            font-size: 28px; /* 3. Font size */
+            text-align: center; /* 3. Text alignment */
+            color: #2c3e50; /* 2. Text color */
+            margin-bottom: 20px; /* 4. Using px unit */
+        }
+
+        /* 1. ID Selector */
+        #intro {
+            font-size: 18px;
+            text-align: justify;
+            line-height: 1.5em; /* 4. Using em unit */
+            margin-bottom: 20px;
+        }
+
+        /* Styling a list */
+        ul.fruits {
+            list-style-type: square;
+            padding-left: 20px; /* 4. Using px unit */
+        }
+
+        ul.fruits li {
+            font-size: 16px;
+            margin-bottom: 5px; /* 4. Using px unit */
+        }
+
+        /* Button styling */
+        .btn {
+            background-color: #3498db; /* 2. Background color */
+            color: white; /* 2. Text color */
+            padding: 10px 20px; /* 4. Using px unit */
+            border: none;
+            border-radius: 5px; /* 4. Using px unit */
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #2980b9; /* 2. Background color */
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="heading">Welcome to My Styled Webpage</h1>
+
+    <p id="intro">
+        This webpage demonstrates basic CSS styling using element, class, and ID selectors. 
+        It includes text formatting, colors, alignment, and spacing using various units like px and em.
+    </p>
+
+    <h2>Favorite Fruits</h2>
+    <ul class="fruits">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+
+    <button class="btn">Click Me</button>
+
+</body>
+</html>
